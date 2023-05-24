@@ -72,12 +72,10 @@ nav ul  li  a{
 }
 
 nav ul  li a:hover{
-  text-transform: uppercase; 
-  transform: scale(1.5);
   opacity: 1;
   background: darkmagenta;
   font-size: 18px;
-  transition: 0.7s all linear;
+  transition: 0.7s;
 }
 
 ul li::after{
@@ -133,7 +131,7 @@ ul li::after{
 .content  .image{
   width: 100%;
   height: 100%;
-  margin-left: 12px;
+  margin-left: 120px;
 }
 
 .content  .image  img{
